@@ -17,9 +17,9 @@ object Template {
 
     @JvmField
     val log: Logger = LoggerFactory.getLogger(Template::class.simpleName)
-
+//    trest_block
     val BLOCK_X = regsiter("block_x", Block(AbstractBlock.Settings.copy(Blocks.STONE)))
-    val TREST_BLOCK = regsiter("trest_block", Block(AbstractBlock.Settings.copy(Blocks.GLASS)))
+    val TEST_BLOCK = regsiter("test_block", Block(AbstractBlock.Settings.copy(Blocks.GLASS)))
 
     fun init() {
         log.info("Hello from Common")
