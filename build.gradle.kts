@@ -32,7 +32,8 @@ modSettings {
     entrypoint("client", "org.teamvoided.template.TemplateClient::init")
     entrypoint("fabric-datagen", "org.teamvoided.template.data.gen.TemplateData")
 
-    mixinFile("${modId()}.client.mixins.json")
+    enableTransition()
+//    mixinFile("${modId()}.client.mixins.json")
 //    mixinFile("${modId()}.mixins.json")
 //    accessWidener("${modId()}.accesswidener")
 }
